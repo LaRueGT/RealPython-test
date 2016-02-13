@@ -13,6 +13,10 @@
       <column name="state" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
       <column name="population" sqlType="INT" precision="0" scale="-1" nullable="true" jdbcType="4"/>
     </table>
+    <table name="regions" schema="" catalog="" type="TABLE">
+      <column name="city" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="region" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
   </data-source>
   <data-source name="Sqlite (Xerial) - cars.db" uuid="987683da-ad7f-4597-9641-d1fd8f0e7660">
     <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>

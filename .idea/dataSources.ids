@@ -4,6 +4,10 @@
     <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
+    <table name="employees" schema="" catalog="" type="TABLE">
+      <column name="firstname" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="lastname" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
     <table name="population" schema="" catalog="" type="TABLE">
       <column name="city" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
       <column name="state" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>

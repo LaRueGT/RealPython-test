@@ -20,7 +20,7 @@ lxml==3.4.4
 Mako==1.0.1
 MarkupSafe==0.23
 matplotlib==1.4.3
-numpy==1.9.2
+numpy==1.22.0
 pbr==1.8.1
 Pillow==3.0.0
 progress==1.2
